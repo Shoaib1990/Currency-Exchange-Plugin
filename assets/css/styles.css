@@ -1,0 +1,42 @@
+.test {
+    background-color: antiquewhite;
+}
+
+.form_container form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.form_container form > * {
+    margin: 5px;
+}
+
+.from_currency_select, .to_currency_select {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    color: gray;
+    text-align: center;
+    font-size: larger;
+    margin: 10px 0;
+}
+
+.from, .to {
+    color: gray;
+    height: 40px;
+    font-style: italic;
+    text-align: center;
+    font-size: larger;
+    margin: 10px 0;
+}
+
+.result {
+    text-align: center;
+    font-size: larger;
+    color: gray;
+}
+
